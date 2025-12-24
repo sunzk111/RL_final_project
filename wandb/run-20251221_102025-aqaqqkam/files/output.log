@@ -1,0 +1,60 @@
+SPS: 414
+SPS: 653
+SPS: 652
+SPS: 765
+SPS: 849
+SPS: 909
+SPS: 845
+SPS: 898
+SPS: 944
+SPS: 985
+SPS: 1021
+SPS: 1051
+SPS: 1079
+SPS: 1107
+SPS: 1125
+SPS: 1134
+SPS: 1017
+SPS: 1037
+SPS: 1054
+SPS: 1070
+SPS: 1084
+SPS: 1099
+SPS: 1115
+SPS: 1128
+SPS: 1138
+SPS: 1151
+SPS: 1161
+SPS: 1172
+SPS: 1183
+SPS: 1191
+SPS: 1202
+SPS: 1210
+SPS: 1217
+SPS: 1226
+SPS: 1235
+SPS: 1243
+SPS: 1249
+SPS: 1256
+SPS: 1263
+SPS: 1267
+SPS: 1270
+SPS: 1277
+SPS: 1283
+SPS: 1288
+SPS: 1292
+SPS: 1297
+SPS: 1302
+SPS: 1308
+Traceback (most recent call last):
+  File "ppo.py", line 325, in <module>
+    envs.close()
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/vector/vector_env.py", line 234, in close
+    self.close_extras(**kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 375, in close_extras
+    [env.close() for env in self.envs]
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 375, in <listcomp>
+    [env.close() for env in self.envs]
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'

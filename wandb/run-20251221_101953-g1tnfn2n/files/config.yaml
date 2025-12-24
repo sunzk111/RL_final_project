@@ -1,0 +1,111 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        code_path: code/ppo.py
+        e:
+            tt70ecodlv2my4d1q0wfopuduy4d81mk:
+                args:
+                    - --track
+                    - --capture-video
+                codePath: ppo.py
+                codePathLocal: ppo.py
+                cpu_count: 26
+                cpu_count_logical: 52
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "4845293568"
+                email: sun.zekun@sohu.com
+                executable: /root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/bin/python
+                git:
+                    commit: fbef824effc284137943ff9c058125435ec68cd3
+                    remote: https://github.com/vwxyzjn/ppo-implementation-details
+                gpu: Tesla V100-PCIE-32GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Volta
+                      cudaCores: 5120
+                      memoryTotal: "34359738368"
+                      name: Tesla V100-PCIE-32GB
+                      uuid: GPU-ae716b92-f432-6f1e-8962-ccb029199fbf
+                host: autodl-container-93b9118200-d59819f4
+                memory:
+                    total: "230306287616"
+                os: Linux-5.4.0-136-generic-x86_64-with-glibc2.17
+                program: ppo.py
+                python: CPython 3.8.10
+                root: /root/autodl-tmp/ppo-implementation-details
+                startedAt: "2025-12-21T02:19:53.097137Z"
+                writerId: tt70ecodlv2my4d1q0wfopuduy4d81mk
+        m: []
+        python_version: 3.8.10
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 35
+            "4": 3.8.10
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+anneal_lr:
+    value: true
+batch_size:
+    value: 512
+capture_video:
+    value: true
+clip_coef:
+    value: 0.2
+clip_vloss:
+    value: true
+cuda:
+    value: true
+ent_coef:
+    value: 0.01
+exp_name:
+    value: ppo
+gae:
+    value: true
+gae_lambda:
+    value: 0.95
+gamma:
+    value: 0.99
+gym_id:
+    value: CartPole-v1
+learning_rate:
+    value: 0.00025
+max_grad_norm:
+    value: 0.5
+minibatch_size:
+    value: 128
+norm_adv:
+    value: true
+num_envs:
+    value: 4
+num_minibatches:
+    value: 4
+num_steps:
+    value: 128
+seed:
+    value: 1
+target_kl:
+    value: null
+torch_deterministic:
+    value: true
+total_timesteps:
+    value: 25000
+track:
+    value: true
+update_epochs:
+    value: 4
+vf_coef:
+    value: 0.5
+wandb_entity:
+    value: null
+wandb_project_name:
+    value: ppo-implementation-details

@@ -1,0 +1,14 @@
+{"time":"2025-12-21T10:19:53.378836918+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-21T10:19:54.388115534+08:00","level":"INFO","msg":"stream: created new stream","id":"g1tnfn2n"}
+{"time":"2025-12-21T10:19:54.388279544+08:00","level":"INFO","msg":"handler: started","stream_id":"g1tnfn2n"}
+{"time":"2025-12-21T10:19:54.388484902+08:00","level":"INFO","msg":"stream: started","id":"g1tnfn2n"}
+{"time":"2025-12-21T10:19:54.388548303+08:00","level":"INFO","msg":"writer: started","stream_id":"g1tnfn2n"}
+{"time":"2025-12-21T10:19:54.38855047+08:00","level":"INFO","msg":"sender: started","stream_id":"g1tnfn2n"}
+{"time":"2025-12-21T10:20:02.500201759+08:00","level":"INFO","msg":"stream: closing","id":"g1tnfn2n"}
+{"time":"2025-12-21T10:20:04.995051195+08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-21T10:20:04.995165306+08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283590\")","namespace":""}
+{"time":"2025-12-21T10:20:04.995585889+08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283590/events.out.tfevents.1766283594.autodl-container-93b9118200-d59819f4.3260.0","runPath":"runs/CartPole-v1__ppo__1__1766283590/events.out.tfevents.1766283594.autodl-container-93b9118200-d59819f4.3260.0"}
+{"time":"2025-12-21T10:20:06.174956665+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-21T10:20:07.099301852+08:00","level":"INFO","msg":"handler: closed","stream_id":"g1tnfn2n"}
+{"time":"2025-12-21T10:20:07.099462614+08:00","level":"INFO","msg":"sender: closed","stream_id":"g1tnfn2n"}
+{"time":"2025-12-21T10:20:07.099473433+08:00","level":"INFO","msg":"stream: closed","id":"g1tnfn2n"}

@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-5.4.0-136-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.10",
+  "startedAt":  "2025-12-21T02:19:53.097137Z",
+  "args":  [
+    "--track",
+    "--capture-video"
+  ],
+  "program":  "ppo.py",
+  "codePath":  "ppo.py",
+  "codePathLocal":  "ppo.py",
+  "git":  {
+    "remote":  "https://github.com/vwxyzjn/ppo-implementation-details",
+    "commit":  "fbef824effc284137943ff9c058125435ec68cd3"
+  },
+  "email":  "sun.zekun@sohu.com",
+  "root":  "/root/autodl-tmp/ppo-implementation-details",
+  "host":  "autodl-container-93b9118200-d59819f4",
+  "executable":  "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/bin/python",
+  "cpu_count":  26,
+  "cpu_count_logical":  52,
+  "gpu":  "Tesla V100-PCIE-32GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "4845293568"
+    }
+  },
+  "memory":  {
+    "total":  "230306287616"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla V100-PCIE-32GB",
+      "memoryTotal":  "34359738368",
+      "cudaCores":  5120,
+      "architecture":  "Volta",
+      "uuid":  "GPU-ae716b92-f432-6f1e-8962-ccb029199fbf"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "tt70ecodlv2my4d1q0wfopuduy4d81mk"
+}

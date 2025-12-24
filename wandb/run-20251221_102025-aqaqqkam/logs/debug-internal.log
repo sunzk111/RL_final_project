@@ -1,0 +1,24 @@
+{"time":"2025-12-21T10:20:26.176843412+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-21T10:20:27.177026538+08:00","level":"INFO","msg":"stream: created new stream","id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:27.177163207+08:00","level":"INFO","msg":"handler: started","stream_id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:27.177329217+08:00","level":"INFO","msg":"stream: started","id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:27.177354579+08:00","level":"INFO","msg":"writer: started","stream_id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:27.17737887+08:00","level":"INFO","msg":"sender: started","stream_id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:37.804604197+08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-21T10:20:37.804721208+08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283623\")","namespace":""}
+{"time":"2025-12-21T10:20:37.805276805+08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283623/events.out.tfevents.1766283627.autodl-container-93b9118200-d59819f4.3334.0","runPath":"runs/CartPole-v1__ppo__1__1766283623/events.out.tfevents.1766283627.autodl-container-93b9118200-d59819f4.3334.0"}
+{"time":"2025-12-21T10:20:37.807625154+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":112}
+{"time":"2025-12-21T10:20:37.808219632+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":23}
+{"time":"2025-12-21T10:20:42.809879932+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":393}
+{"time":"2025-12-21T10:20:42.81102631+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":116}
+{"time":"2025-12-21T10:20:47.814516625+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":759}
+{"time":"2025-12-21T10:20:47.817181517+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":153}
+{"time":"2025-12-21T10:20:52.817318766+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":1033}
+{"time":"2025-12-21T10:20:52.817547211+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":2}
+{"time":"2025-12-21T10:20:52.818217689+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":1144}
+{"time":"2025-12-21T10:20:52.820394489+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":233}
+{"time":"2025-12-21T10:20:53.7968932+08:00","level":"INFO","msg":"stream: closing","id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:54.95215086+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-21T10:20:57.441365476+08:00","level":"INFO","msg":"handler: closed","stream_id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:57.441473781+08:00","level":"INFO","msg":"sender: closed","stream_id":"aqaqqkam"}
+{"time":"2025-12-21T10:20:57.441497438+08:00","level":"INFO","msg":"stream: closed","id":"aqaqqkam"}

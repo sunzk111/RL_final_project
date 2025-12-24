@@ -1,0 +1,16 @@
+{"time":"2025-12-21T10:22:47.267196836+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-21T10:22:48.249517948+08:00","level":"INFO","msg":"stream: created new stream","id":"f2wqg7gm"}
+{"time":"2025-12-21T10:22:48.249642239+08:00","level":"INFO","msg":"handler: started","stream_id":"f2wqg7gm"}
+{"time":"2025-12-21T10:22:48.249813907+08:00","level":"INFO","msg":"stream: started","id":"f2wqg7gm"}
+{"time":"2025-12-21T10:22:48.249847959+08:00","level":"INFO","msg":"writer: started","stream_id":"f2wqg7gm"}
+{"time":"2025-12-21T10:22:48.249861258+08:00","level":"INFO","msg":"sender: started","stream_id":"f2wqg7gm"}
+{"time":"2025-12-21T10:22:58.882687076+08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-21T10:22:58.882866408+08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283764\")","namespace":""}
+{"time":"2025-12-21T10:22:58.883406352+08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766283764/events.out.tfevents.1766283768.autodl-container-93b9118200-d59819f4.3787.0","runPath":"runs/CartPole-v1__ppo__1__1766283764/events.out.tfevents.1766283768.autodl-container-93b9118200-d59819f4.3787.0"}
+{"time":"2025-12-21T10:23:03.888300173+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":268}
+{"time":"2025-12-21T10:23:03.891243328+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":241}
+{"time":"2025-12-21T10:23:14.775511741+08:00","level":"INFO","msg":"stream: closing","id":"f2wqg7gm"}
+{"time":"2025-12-21T10:23:15.944229888+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-21T10:23:17.439254961+08:00","level":"INFO","msg":"handler: closed","stream_id":"f2wqg7gm"}
+{"time":"2025-12-21T10:23:17.439376411+08:00","level":"INFO","msg":"sender: closed","stream_id":"f2wqg7gm"}
+{"time":"2025-12-21T10:23:17.43940037+08:00","level":"INFO","msg":"stream: closed","id":"f2wqg7gm"}

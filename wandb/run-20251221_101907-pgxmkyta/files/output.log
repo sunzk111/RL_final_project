@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/utils/save_video.py", line 13, in <module>
+    from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
+ModuleNotFoundError: No module named 'moviepy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "ppo.py", line 162, in <module>
+    envs = gym.vector.SyncVectorEnv(
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 96, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 96, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "ppo.py", line 89, in thunk
+    env = gym.wrappers.RecordVideo(env, f"videos/{run_name}")
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/wrappers/rendering.py", line 273, in __init__
+    from gymnasium.utils.save_video import capped_cubic_video_schedule
+  File "/root/.cache/pypoetry/virtualenvs/ppo-details-0gGEmRE_-py3.8/lib/python3.8/site-packages/gymnasium/utils/save_video.py", line 15, in <module>
+    raise gym.error.DependencyNotInstalled(
+gymnasium.error.DependencyNotInstalled: moviepy is not installed, run `pip install "gymnasium[other]"`

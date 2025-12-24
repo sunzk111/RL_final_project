@@ -1,0 +1,24 @@
+2025-12-21 10:20:25,850 INFO    MainThread:3334 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-21 10:20:25,850 INFO    MainThread:3334 [wandb_setup.py:_flush():80] Configure stats pid to 3334
+2025-12-21 10:20:25,850 INFO    MainThread:3334 [wandb_setup.py:_flush():80] Loading settings from /root/.config/wandb/settings
+2025-12-21 10:20:25,850 INFO    MainThread:3334 [wandb_setup.py:_flush():80] Loading settings from /root/autodl-tmp/ppo-implementation-details/wandb/settings
+2025-12-21 10:20:25,850 INFO    MainThread:3334 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-21 10:20:25,851 INFO    MainThread:3334 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /root/autodl-tmp/ppo-implementation-details/wandb/run-20251221_102025-aqaqqkam/logs/debug.log
+2025-12-21 10:20:25,851 INFO    MainThread:3334 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /root/autodl-tmp/ppo-implementation-details/wandb/run-20251221_102025-aqaqqkam/logs/debug-internal.log
+2025-12-21 10:20:25,856 INFO    MainThread:3334 [wandb_init.py:init():841] calling init triggers
+2025-12-21 10:20:25,856 INFO    MainThread:3334 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'exp_name': 'ppo', 'gym_id': 'CartPole-v1', 'learning_rate': 0.00025, 'seed': 1, 'total_timesteps': 25000, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'ppo-implementation-details', 'wandb_entity': None, 'capture_video': True, 'num_envs': 4, 'num_steps': 128, 'anneal_lr': True, 'gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'num_minibatches': 4, 'update_epochs': 4, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.01, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None, 'batch_size': 512, 'minibatch_size': 128, '_wandb': {'code_path': 'code/ppo.py'}}
+2025-12-21 10:20:25,856 INFO    MainThread:3334 [wandb_init.py:init():889] starting backend
+2025-12-21 10:20:26,128 INFO    MainThread:3334 [wandb_init.py:init():892] sending inform_init request
+2025-12-21 10:20:26,174 INFO    MainThread:3334 [wandb_init.py:init():900] backend started and connected
+2025-12-21 10:20:26,212 INFO    MainThread:3334 [wandb_init.py:init():970] updated telemetry
+2025-12-21 10:20:26,229 INFO    MainThread:3334 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-21 10:20:27,695 INFO    MainThread:3334 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-21 10:20:27,797 INFO    MainThread:3334 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-21 10:20:27,797 INFO    MainThread:3334 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-21 10:20:27,797 INFO    MainThread:3334 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-21 10:20:27,798 INFO    MainThread:3334 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-21 10:20:27,803 INFO    MainThread:3334 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-21 10:20:27,803 INFO    MainThread:3334 [wandb_run.py:_tensorboard_callback():1607] tensorboard callback: runs/CartPole-v1__ppo__1__1766283623, True
+2025-12-21 10:20:53,797 INFO    wandb-AsyncioManager-main:3334 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-21 10:20:53,797 INFO    wandb-AsyncioManager-main:3334 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

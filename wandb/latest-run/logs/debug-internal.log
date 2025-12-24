@@ -1,0 +1,20 @@
+{"time":"2025-12-21T10:33:40.052073659+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-21T10:33:41.985570286+08:00","level":"INFO","msg":"stream: created new stream","id":"0qo0c3qm"}
+{"time":"2025-12-21T10:33:41.985701792+08:00","level":"INFO","msg":"handler: started","stream_id":"0qo0c3qm"}
+{"time":"2025-12-21T10:33:41.98588745+08:00","level":"INFO","msg":"stream: started","id":"0qo0c3qm"}
+{"time":"2025-12-21T10:33:41.985941657+08:00","level":"INFO","msg":"sender: started","stream_id":"0qo0c3qm"}
+{"time":"2025-12-21T10:33:41.985966291+08:00","level":"INFO","msg":"writer: started","stream_id":"0qo0c3qm"}
+{"time":"2025-12-21T10:33:52.615859079+08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-12-21T10:33:52.616087992+08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766284417\")","namespace":""}
+{"time":"2025-12-21T10:33:52.616861977+08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/root/autodl-tmp/ppo-implementation-details/runs/CartPole-v1__ppo__1__1766284417/events.out.tfevents.1766284422.autodl-container-93b9118200-d59819f4.4446.0","runPath":"runs/CartPole-v1__ppo__1__1766284417/events.out.tfevents.1766284422.autodl-container-93b9118200-d59819f4.4446.0"}
+{"time":"2025-12-21T10:33:52.618400453+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":61}
+{"time":"2025-12-21T10:33:52.620946544+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":74}
+{"time":"2025-12-21T10:33:57.621218235+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":218}
+{"time":"2025-12-21T10:33:57.624202536+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":291}
+{"time":"2025-12-21T10:34:02.625900532+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":667}
+{"time":"2025-12-21T10:34:02.629456362+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":245}
+{"time":"2025-12-21T10:34:08.866938963+08:00","level":"INFO","msg":"stream: closing","id":"0qo0c3qm"}
+{"time":"2025-12-21T10:34:10.174856717+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-21T10:34:11.607582739+08:00","level":"INFO","msg":"handler: closed","stream_id":"0qo0c3qm"}
+{"time":"2025-12-21T10:34:11.607748251+08:00","level":"INFO","msg":"sender: closed","stream_id":"0qo0c3qm"}
+{"time":"2025-12-21T10:34:11.607784033+08:00","level":"INFO","msg":"stream: closed","id":"0qo0c3qm"}

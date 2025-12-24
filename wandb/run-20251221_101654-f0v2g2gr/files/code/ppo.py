@@ -79,10 +79,7 @@ def parse_args():
 
 def make_env(gym_id, seed, idx, capture_video, run_name):
     def thunk():
-        if capture_video and idx == 0:
-            env = gym.make(gym_id, render_mode="rgb_array")
-        else:
-            env = gym.make(gym_id)
+        env = gym.make(gym_id)
         env = gym.wrappers.RecordEpisodeStatistics(env)
         if capture_video:
             if idx == 0:
@@ -141,6 +138,7 @@ if __name__ == "__main__":
             sync_tensorboard=True,
             config=vars(args),
             name=run_name,
+            monitor_gym=True,
             save_code=True,
         )
     writer = SummaryWriter(f"runs/{run_name}")
